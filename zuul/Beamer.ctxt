@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Beamer
+comment0.text=\r\n\ Child\ class\ of\ Item\ for\ adding\ a\ beamer\ to\ the\ game\ which\ can\ be\ charged\ and\ fired.\ \r\n\r\n\ @author\ Teghbir\ Chadha\r\n\ @version\ A2\ Solution\ \r\n
+comment1.params=description\ weight\ name
+comment1.target=Beamer(java.lang.String,\ double,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Beamer.\r\n\ \r\n\ @param\ description\ The\ description\ of\ the\ item\r\n\ @param\ weight\ The\ weight\ of\ the\ item\r\n\ @param\ name\ The\ name\ of\ the\ item\r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\r\n\ Returns\ the\ name\ of\ the\ item.\r\n\ \r\n\ @return\ \ The\ name\ of\ the\ item\r\n
+comment3.params=currentRoom
+comment3.target=void\ charge(Room)
+comment3.text=\r\n\ Charges\ the\ device\ beamer\ in\ the\ current\ room\ if\ it\ isn't\ already\ charged\r\n\ \r\n\ @param\ \ current\ room\ of\ type\ Room\r\n
+comment4.params=
+comment4.target=boolean\ isCharged()
+comment4.text=\r\n\ Checks\ and\ returns\ the\ value\ of\ the\ variable\ isCharged.\r\n\ \r\n\ @return\ the\ boolean\ status\ of\ the\ variable\ isCharged\r\n
+comment5.params=
+comment5.target=Room\ fire()
+comment5.text=\r\n\ Fires\ the\ device\ if\ user\ has\ a\ charged\ beamer\r\n\ \r\n\ @return\ the\ room\ where\ the\ beamer\ was\ charged\r\n
+numComments=6
